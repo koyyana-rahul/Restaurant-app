@@ -1,0 +1,37 @@
+{
+  "name": "finalswiggy",
+  "version": "1.0.0",
+  "description": "\"creating swiggy clone\"",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koyyana-rahul/Restaurant-app"
+  },
+  "author": "rahul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koyyana-rahul/Restaurant-app/issues"
+  },
+  "homepage": "https://koyyana-rahul.github.io/Restaurant-app",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.13.3",
+    "postcss": "^8.5.1",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.5.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.1.3"
+  }
+}
